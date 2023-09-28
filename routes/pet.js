@@ -59,6 +59,8 @@ router.get('/',(req, res)=>{
 
    // POST:create a new pet
 router.post('/',(req,res)=>{
+    res.status(501);
+    res.json({});
 });
 
     //PUT:update an existing pet
